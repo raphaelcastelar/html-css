@@ -4,9 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
 
 
-
+}
 
 
 header{
@@ -26,13 +33,19 @@ margin: 0px;
 padding-top:50px;
 font-weight: bold;
 font-size: 10vw;
+font-variant: small-caps;
 
 }
 
 #miltonduarte{
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
     color: white;
+
+}
+
+#miltonduarte:hover{
+text-decoration: underline;
 
 }
 
@@ -44,15 +57,32 @@ padding-bottom: 50px;
 }
 
 body{
-margin: 0;
+height: 100%;
 
 
 }
 
-#primeiraparte{
+section{
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+
+section.normal{
 font-family: 'Sriracha', cursive;
 padding: 30px;
 font-size: 35px;
+
+}
+section.imagem{
+background-color: rgb(43, 42, 42);
+color: white;
+
+}
+
+section.imagem > p{
+background-color: black;
+width: 400px;
 
 }
 
@@ -62,7 +92,8 @@ text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: black;
 color: white;
-padding: 3px;
+padding: 10px;
+
 
 }
 #github{
@@ -78,3 +109,13 @@ color: white;
 font-weight: bold;
 
 }
+
+#cursoemvideo:hover{
+text-decoration: underline;
+
+}
+
+#github:hover{
+    text-decoration: underline;
+    
+    }
