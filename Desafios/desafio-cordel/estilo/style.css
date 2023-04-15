@@ -11,7 +11,9 @@
 }
 
 :root{
-
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
 
 }
 
@@ -27,7 +29,7 @@ height: 100%;
 }
 
 header > h1{
-font-family: 'Passion One', cursive;
+font-family: var(--fonte2);
 padding: 0px;
 margin: 0px;
 padding-top:50px;
@@ -50,7 +52,7 @@ text-decoration: underline;
 }
 
 header > p{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: var(--fonte1);
 font-size: 16px;
 padding-bottom: 50px;
 
@@ -69,27 +71,31 @@ padding-bottom: 10%;
 }
 
 section.normal{
-font-family: 'Sriracha', cursive;
+font-family: var(--fonte3);
 padding: 30px;
-font-size: 35px;
+font-size: 3.5vw;
 
 }
 section.imagem{
 background-color: rgb(43, 42, 42);
 color: white;
+font-family: var(--fonte3);
+padding: 30px;
+font-size: 3.5vw;
 
 }
 
 section.imagem > p{
 background-color: black;
 width: 400px;
+padding: 5px;
 
 }
 
 
 footer{
 text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: var(--fonte1);
 background-color: black;
 color: white;
 padding: 10px;
