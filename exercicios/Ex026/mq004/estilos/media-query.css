@@ -12,8 +12,26 @@
 
 @media print{
     body{
-        background-image: url(../imagens/back-print.jpg);
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário*/
+       
     }
+
+    main{
+        border: 2px solid black;
+        width: 62vw;
+    }
+
+    main::after{
+        content: "Essa impressão foi feita através do site cursoemvideo.com";
+
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     img#print{
         display: block;
     }
@@ -54,7 +72,9 @@
 @media screen and (min-width: 1200px){
     body{
         background-image: url(../imagens/back-tv.jpg);
+       
     }
+
     img#tv{
         display: block;
 
