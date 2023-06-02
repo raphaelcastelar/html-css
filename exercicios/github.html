@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    <style>
+        h1{
+           font-family: Arial, Helvetica, sans-serif; 
+
+        }
+
+        .wrapper{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+            a{
+            display: block;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 18px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: #333;
+            border: 2px solid #333;
+            letter-spacing: 2px;
+            text-align: center;
+            position: relative;
+            transition: all .35s;
+            }
+
+            a span{
+            position: relative;
+            z-index: 2;
+            }
+
+            a:after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: #ff003b;
+            transition: all .35s;
+            }
+
+            a:hover{
+            color: #fff;
+            }
+
+            a:hover:after{
+            width: 100%;
+            }
+
+    </style>
+</head>
+<body>
+    <h1>🌐 Contatos: <a href="https://www.linkedin.com/in/raphael-castelar/">linkedin</a> </h1>
+    <button><a href="https://www.linkedin.com/in/raphael-castelar/">Linkedin</a></button>
+
+    <div class="wrapper">
+        <a href="https://www.linkedin.com/in/raphael-castelar/"><span>Linkedin</span></a>
+      </div>
+      
+      
+</body>
+</html>
